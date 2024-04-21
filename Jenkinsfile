@@ -9,8 +9,8 @@ pipeline {
         stage('Ejecutando el Script') {
             steps {
                 script {
-                    sh 'chmod +x ./main.sh'
-                    sh "./main.sh ${params.PROCESS_NAME}"
+                    sh 'chmod +x ./informe_del_sistema.sh'
+                    sh "./informe_del_sistema.sh ${params.PROCESS_NAME}"
                 }
             }
         }
