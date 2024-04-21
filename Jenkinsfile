@@ -15,9 +15,4 @@ pipeline {
             }
         }
     }
-    // post {
-    //     always {
-    //         echo 'El job ha sido completado.'
-    //     }
-    // }
 }
