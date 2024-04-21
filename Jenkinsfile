@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'PROCESS_NAME', defaultValue: 'bash', description: 'Nombre del proceso a buscar')
+        string(name: 'PROCESS_NAME', defaultValue: 'Elimine esto y escriba el proceso a buscar...', description: 'Nombre del proceso a buscar')
     }
 
     stages {
-        stage('Ejecutando el Script') {
+        stage('Ejecucion del Script') {
             steps {
                 script {
                     sh 'chmod +x ./informe_del_sistema.sh'
