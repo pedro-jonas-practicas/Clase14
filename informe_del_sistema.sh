@@ -29,7 +29,7 @@ get_memory_usage(){
 
 get_processes(){
     process_name=$1
-    echo "Processes: $(ps aux |grep $process_name)"
+    echo "Processes: $(ps aux | grep $process_name)"
 }
 
 # this is my main program
