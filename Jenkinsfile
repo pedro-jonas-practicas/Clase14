@@ -6,7 +6,7 @@ pipeline {
     }
 
     stages {
-        stage('Ejecucion del Script') {
+        stage('Ejecución del Script') {
             steps {
                 script {
                     sh 'chmod +x ./informe_del_sistema.sh'
